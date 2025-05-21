@@ -15,7 +15,7 @@ public class C01_IlkOtomasyon {
         // Java'dan yardım alacagız
 
 
-        System.setProperty("webdriver.chorme.driver","kurulumDosyalari/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","kurulumDosyalari/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
 
